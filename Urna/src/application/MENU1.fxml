@@ -20,6 +20,11 @@
                   <Image url="@../../../../Desktop/Brushes/Urna.jpg" />
                </image>
             </ImageView>
+            <ImageView fitHeight="355.0" fitWidth="697.0" layoutX="58.0" layoutY="160.0">
+               <image>
+                  <Image url="@Urna.jpg" />
+               </image>
+            </ImageView>
             <Button layoutX="517.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleNumberButton" prefHeight="30.0" prefWidth="45.0" styleClass="botao-numerico" text="1" />
             <Button layoutX="568.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleNumberButton" prefHeight="30.0" prefWidth="45.0" styleClass="botao-numerico" text="2" />
             <Button layoutX="618.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleNumberButton" prefHeight="30.0" prefWidth="45.0" styleClass="botao-numerico" text="3" />
