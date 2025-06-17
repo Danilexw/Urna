@@ -10,16 +10,11 @@
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx/21.0.7" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UrnaController">
+<AnchorPane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UrnaController">
 
    <children>
       <AnchorPane prefHeight="600.0" prefWidth="800.0">
          <children>
-            <ImageView fitHeight="347.0" fitWidth="715.0" layoutX="43.0" layoutY="162.0">
-               <image>
-                  <Image url="@../../../../Desktop/Brushes/Urna.jpg" />
-               </image>
-            </ImageView>
             <ImageView fitHeight="355.0" fitWidth="697.0" layoutX="58.0" layoutY="160.0">
                <image>
                   <Image url="@Urna.jpg" />
