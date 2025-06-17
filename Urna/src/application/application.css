@@ -1,0 +1,65 @@
+/* estilo.css */
+
+.botao-numerico {
+    -fx-background-color: #515151;  
+    -fx-text-fill: white;           
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.botao-numerico:hover {
+    -fx-background-color: #1f618d;
+}
+
+.botao-confirmar {
+	-fx-background-color: #3d9428;
+	-fx-text-fill: white;           
+    -fx-font-size: 8px;
+    -fx-font-weight: bold;
+}
+.botao-confirmar:hover {
+	-fx-background-color: #255619;
+}
+.botao-corrige{
+	-fx-background-color: #e77c1f;
+	-fx-text-fill: white;           
+    -fx-font-size: 8px;
+    -fx-font-weight: bold;
+}
+.botao-corrige:hover {
+	-fx-background-color: #c55d00;
+}
+
+.botao-branco{
+	-fx-background-color: #ececec;  
+    -fx-text-fill: #a59d96;           
+    -fx-font-size: 8px;
+    -fx-font-weight: bold;
+}
+
+.botao-branco:hover {
+	-fx-text-fill: white;
+	-fx-background-color: #7d736b;
+}
+
+.botao-fechar{
+	-fx-background-color: transparent;
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+}
+.botao-fechar:hover{
+	-fx-background-color: transparent;
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+}
+.botao-partido{
+	-fx-background-color: #0b7a9d;
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+}
+.botao-partido:hover{
+	-fx-background-color: #0b7a9d;
+	-fx-font-weight: bold;
+	-fx-text-fill: blue;
+}

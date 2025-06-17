@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UrnaController">
+
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <ImageView fitHeight="347.0" fitWidth="715.0" layoutX="43.0" layoutY="162.0">
+               <image>
+                  <Image url="@../../../../Desktop/Brushes/Urna.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="517.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleNumberButton" prefHeight="30.0" prefWidth="45.0" styleClass="botao-numerico" text="1" />
+            <Button layoutX="568.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleNumberButton" prefHeight="30.0" prefWidth="45.0" styleClass="botao-numerico" text="2" />
+            <Button layoutX="618.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleNumberButton" prefHeight="30.0" prefWidth="45.0" styleClass="botao-numerico" text="3" />
+            <Button layoutX="517.0" layoutY="296.0" mnemonicParsing="false" onAction="#handleNumberButton" prefHeight="30.0" prefWidth="45.0" styleClass="botao-numerico" text="4" />
+            <Button layoutX="568.0" layoutY="296.0" mnemonicParsing="false" onAction="#handleNumberButton" prefHeight="30.0" prefWidth="45.0" styleClass="botao-numerico" text="5" />
+            <Button layoutX="618.0" layoutY="296.0" mnemonicParsing="false" onAction="#handleNumberButton" prefHeight="30.0" prefWidth="45.0" styleClass="botao-numerico" text="6" />
+            <Button layoutX="517.0" layoutY="331.0" mnemonicParsing="false" onAction="#handleNumberButton" prefHeight="30.0" prefWidth="45.0" styleClass="botao-numerico" text="7" />
+            <Button layoutX="568.0" layoutY="331.0" mnemonicParsing="false" onAction="#handleNumberButton" prefHeight="30.0" prefWidth="45.0" styleClass="botao-numerico" text="8" />
+            <Button layoutX="617.0" layoutY="331.0" mnemonicParsing="false" onAction="#handleNumberButton" prefHeight="30.0" prefWidth="45.0" styleClass="botao-numerico" text="9" />
+            <Button layoutX="568.0" layoutY="367.0" mnemonicParsing="false" onAction="#handleNumberButton" prefHeight="30.0" prefWidth="45.0" styleClass="botao-numerico" text="0" />
+            <Button layoutX="500.0" layoutY="431.0" mnemonicParsing="false" onAction="#handleBranco" prefHeight="25.0" prefWidth="52.0" styleClass="botao-branco" text="BRANCO">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Button>
+            <Button layoutX="623.0" layoutY="423.0" mnemonicParsing="false" onAction="#handleConfirmar" prefHeight="34.0" prefWidth="64.0" styleClass="botao-confirmar" text="CONFIRMAR">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Button>
+            <Button layoutX="563.0" layoutY="431.0" mnemonicParsing="false" onAction="#handleCorrige" prefHeight="25.0" prefWidth="52.0" styleClass="botao-corrige" text="CORRIGE">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Button>
+            <Pane layoutX="56.0" layoutY="47.0" prefHeight="93.0" prefWidth="689.0" style="-fx-background-color: #57b5ff;">
+               <children>
+                  <Button layoutX="88.0" layoutY="11.0" mnemonicParsing="false" onAction="#handlePartido91" prefHeight="73.0" prefWidth="94.0" styleClass="botao-partido" text="91 PEsp" textAlignment="CENTER" />
+                  <Button layoutX="189.0" layoutY="11.0" mnemonicParsing="false" onAction="#handlePartido92" prefHeight="73.0" prefWidth="94.0" styleClass="botao-partido" text="92 PMus" textAlignment="CENTER" />
+                  <Button layoutX="291.0" layoutY="11.0" mnemonicParsing="false" onAction="#handlePartido93" prefHeight="73.0" prefWidth="94.0" styleClass="botao-partido" text="93 PMus" textAlignment="CENTER" />
+                  <Button layoutX="393.0" layoutY="11.0" mnemonicParsing="false" onAction="#handlePartido94" prefHeight="73.0" prefWidth="94.0" styleClass="botao-partido" text="94 PMus" textAlignment="CENTER" />
+                  <Button layoutX="494.0" layoutY="11.0" mnemonicParsing="false" onAction="#handlePartido95" prefHeight="73.0" prefWidth="94.0" styleClass="botao-partido" text="95 PMus" textAlignment="CENTER" />
+                  <ImageView fx:id="partido91" fitHeight="104.0" fitWidth="442.0" layoutX="124.0" layoutY="-5.0" visible="false">
+                     <image>
+                        <Image url="@../../../../Downloads/JAVA/91.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="partido92" fitHeight="104.0" fitWidth="442.0" layoutX="124.0" layoutY="-5.0" visible="false">
+                     <image>
+                        <Image url="@../../../../Downloads/JAVA/92.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="partido93" fitHeight="104.0" fitWidth="442.0" layoutX="124.0" layoutY="-4.0" visible="false">
+                     <image>
+                        <Image url="@../../../../Downloads/JAVA/93.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="botaoFecharImagem" layoutX="544.0" layoutY="-12.0" mnemonicParsing="false" onAction="#handleFecharImagem" prefHeight="0.0" prefWidth="24.0" styleClass="botao-fechar" text="×" textAlignment="CENTER" visible="false" />
+                  <ImageView fx:id="partido94" fitHeight="104.0" fitWidth="442.0" layoutX="117.0" layoutY="-5.0" visible="false">
+                     <image>
+                        <Image url="@../../../../Downloads/JAVA/94.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="partido95" fitHeight="104.0" fitWidth="442.0" layoutX="117.0" layoutY="-4.0" visible="false">
+                     <image>
+                        <Image url="@../../../../Downloads/JAVA/95.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane layoutX="130.0" layoutY="272.0" prefHeight="34.0" prefWidth="36.0" style="-fx-background-color: white;">
+               <effect>
+                  <InnerShadow height="6.34" radius="3.405" width="9.28">
+                     <color>
+                        <Color opacity="0.47328245639801025" />
+                     </color>
+                  </InnerShadow>
+               </effect></Pane>
+            <Pane layoutX="176.0" layoutY="272.0" prefHeight="34.0" prefWidth="36.0" style="-fx-background-color: white;">
+               <effect>
+                  <InnerShadow height="6.34" radius="3.405" width="9.28">
+                     <color>
+                        <Color opacity="0.47328245639801025" />
+                     </color>
+                  </InnerShadow>
+               </effect></Pane>
+            <Pane layoutX="222.0" layoutY="272.0" prefHeight="34.0" prefWidth="36.0" style="-fx-background-color: white;">
+               <effect>
+                  <InnerShadow height="6.34" radius="3.405" width="9.28">
+                     <color>
+                        <Color opacity="0.47328245639801025" />
+                     </color>
+                  </InnerShadow>
+               </effect></Pane>
+            <Pane layoutX="268.0" layoutY="272.0" prefHeight="34.0" prefWidth="36.0" style="-fx-background-color: white;">
+               <effect>
+                  <InnerShadow height="6.34" radius="3.405" width="9.28">
+                     <color>
+                        <Color opacity="0.47328245639801025" />
+                     </color>
+                  </InnerShadow>
+               </effect></Pane>
+            <Pane layoutX="312.0" layoutY="272.0" prefHeight="34.0" prefWidth="36.0" style="-fx-background-color: white;">
+               <effect>
+                  <InnerShadow height="6.34" radius="3.405" width="9.28">
+                     <color>
+                        <Color opacity="0.47328245639801025" />
+                     </color>
+                  </InnerShadow>
+               </effect></Pane>
+            <Label fx:id="label1" layoutX="134.0" layoutY="280.0" text="Label" visible="false" />
+            <Label fx:id="label2" layoutX="180.0" layoutY="280.0" text="Label" visible="false" />
+            <Label fx:id="label3" layoutX="226.0" layoutY="280.0" text="Label" visible="false" />
+            <Label fx:id="label4" layoutX="272.0" layoutY="280.0" text="Label" visible="false" />
+            <Label fx:id="label5" layoutX="316.0" layoutY="280.0" text="Label" visible="false" />
+			<Label fx:id="labelCandidato" layoutX="123.0" layoutY="326.0" prefHeight="93.0" prefWidth="250.0" text="" wrapText="true" />
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
