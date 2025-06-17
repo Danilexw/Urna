@@ -1,0 +1,137 @@
+[
+  {
+    "_id": 91001,
+    "nome": "Golfe",
+    "partido": {
+      "numero": 91,
+      "sigla": "PEsp",
+      "nomeCompleto": "Partido dos Esportes"
+    }
+  },
+  {
+    "_id": 91002,
+    "nome": "Beisebol",
+    "partido": {
+      "numero": 91,
+      "sigla": "PEsp",
+      "nomeCompleto": "Partido dos Esportes"
+    }
+  },
+  {
+    "_id": 91003,
+    "nome": "Ginástica Artística",
+    "partido": {
+      "numero": 91,
+      "sigla": "PEsp",
+      "nomeCompleto": "Partido dos Esportes"
+    }
+  },
+  {
+    "_id": 92001,
+    "nome": "Rock",
+    "partido": {
+      "numero": 92,
+      "sigla": "PMus",
+      "nomeCompleto": "Partido dos Ritmos Musicais"
+    }
+  },
+  {
+    "_id": 92002,
+    "nome": "Sertanejo",
+    "partido": {
+      "numero": 92,
+      "sigla": "PMus",
+      "nomeCompleto": "Partido dos Ritmos Musicais"
+    }
+  },
+  {
+    "_id": 92003,
+    "nome": "Música Popular Brasileira",
+    "partido": {
+      "numero": 92,
+      "sigla": "PMus",
+      "nomeCompleto": "Partido dos Ritmos Musicais"
+    }
+  },
+  {
+    "_id": 93001,
+    "nome": "Astronauta",
+    "partido": {
+      "numero": 93,
+      "sigla": "PProf",
+      "nomeCompleto": "Partido das Profissões"
+    }
+  },
+  {
+    "_id": 93002,
+    "nome": "Pintor",
+    "partido": {
+      "numero": 93,
+      "sigla": "PProf",
+      "nomeCompleto": "Partido das Profissões"
+    }
+  },
+  {
+    "_id": 93003,
+    "nome": "Enfermeira",
+    "partido": {
+      "numero": 93,
+      "sigla": "PProf",
+      "nomeCompleto": "Partido das Profissões"
+    }
+  },
+  {
+    "_id": 94001,
+    "nome": "Páscoa",
+    "partido": {
+      "numero": 94,
+      "sigla": "PFest",
+      "nomeCompleto": "Partido das Festas Populares"
+    }
+  },
+  {
+    "_id": 94002,
+    "nome": "Oktoberfest",
+    "partido": {
+      "numero": 94,
+      "sigla": "PFest",
+      "nomeCompleto": "Partido das Festas Populares"
+    }
+  },
+  {
+    "_id": 94003,
+    "nome": "Reveillon",
+    "partido": {
+      "numero": 94,
+      "sigla": "PFest",
+      "nomeCompleto": "Partido das Festas Populares"
+    }
+  },
+  {
+    "_id": 95001,
+    "nome": "Curupira",
+    "partido": {
+      "numero": 95,
+      "sigla": "PFolc",
+      "nomeCompleto": "Partido do Folclore"
+    }
+  },
+  {
+    "_id": 95002,
+    "nome": "Cabra Cabriola",
+    "partido": {
+      "numero": 95,
+      "sigla": "PFolc",
+      "nomeCompleto": "Partido do Folclore"
+    }
+  },
+  {
+    "_id": 95003,
+    "nome": "Cuca",
+    "partido": {
+      "numero": 95,
+      "sigla": "PFolc",
+      "nomeCompleto": "Partido do Folclore"
+    }
+  }
+]
