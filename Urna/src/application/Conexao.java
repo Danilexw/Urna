@@ -11,7 +11,7 @@ public class Conexao {
             MongoClient mongoClient = MongoClients.create("mongodb://localhost:27017");
 
             // Cria (ou acessa) o banco chamado "meu_banco"
-            MongoDatabase database = mongoClient.getDatabase("meu_banco");
+            MongoDatabase database = mongoClient.getDatabase("urnaBanco");
 
             System.out.println("Banco criado ou acessado com sucesso: " + database.getName());
 
