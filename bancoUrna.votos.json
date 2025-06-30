@@ -1,0 +1,300 @@
+[{
+  "_id": {
+    "$oid": "68620340607d193f753a18c0"
+  },
+  "candidatoId": "91001",
+  "tipoVoto": "VALIDO",
+  "timestamp": {
+    "$date": "2025-06-30T00:23:44.321Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68620353607d193f753a18c1"
+  },
+  "candidatoId": "91002",
+  "tipoVoto": "VALIDO",
+  "timestamp": {
+    "$date": "2025-06-30T00:24:03.400Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6862040cec59e7272fa5bba2"
+  },
+  "candidatoId": "91001",
+  "tipoVoto": "VALIDO",
+  "timestamp": {
+    "$date": "2025-06-30T00:27:08.992Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6862041cec59e7272fa5bba3"
+  },
+  "candidatoId": "91002",
+  "tipoVoto": "VALIDO",
+  "timestamp": {
+    "$date": "2025-06-30T00:27:24.489Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686204d1d6472a7e73fd349f"
+  },
+  "candidatoId": "91001",
+  "tipoVoto": "VALIDO",
+  "timestamp": {
+    "$date": "2025-06-30T00:30:25.775Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686204d9d6472a7e73fd34a0"
+  },
+  "candidatoId": "91002",
+  "tipoVoto": "VALIDO",
+  "timestamp": {
+    "$date": "2025-06-30T00:30:33.766Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68620767317f544428e5744b"
+  },
+  "candidatoId": "91001",
+  "tipoVoto": "VALIDO",
+  "timestamp": {
+    "$date": "2025-06-30T00:41:27.391Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68620778317f544428e5744c"
+  },
+  "candidatoId": "91002",
+  "tipoVoto": "VALIDO",
+  "timestamp": {
+    "$date": "2025-06-30T00:41:44.232Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6862077d317f544428e5744d"
+  },
+  "candidatoId": "NULO",
+  "tipoVoto": "NULO",
+  "timestamp": {
+    "$date": "2025-06-30T00:41:49.397Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68620783317f544428e5744e"
+  },
+  "candidatoId": "BRANCO",
+  "tipoVoto": "BRANCO",
+  "timestamp": {
+    "$date": "2025-06-30T00:41:55.425Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686208cd1d1cec3301ac350e"
+  },
+  "candidatoId": "91001",
+  "tipoVoto": "VALIDO",
+  "timestamp": {
+    "$date": "2025-06-30T00:47:25.725Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686208d51d1cec3301ac350f"
+  },
+  "candidatoId": "91002",
+  "tipoVoto": "VALIDO",
+  "timestamp": {
+    "$date": "2025-06-30T00:47:33.615Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686208dc1d1cec3301ac3510"
+  },
+  "candidatoId": "BRANCO",
+  "tipoVoto": "BRANCO",
+  "timestamp": {
+    "$date": "2025-06-30T00:47:40.596Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686208e61d1cec3301ac3511"
+  },
+  "candidatoId": "NULO",
+  "tipoVoto": "NULO",
+  "timestamp": {
+    "$date": "2025-06-30T00:47:50.086Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686209aad2edbb5fcfa2e133"
+  },
+  "candidatoId": "91001",
+  "tipoVoto": "VALIDO",
+  "timestamp": {
+    "$date": "2025-06-30T00:51:06.278Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686209b0d2edbb5fcfa2e134"
+  },
+  "candidatoId": "91002",
+  "tipoVoto": "VALIDO",
+  "timestamp": {
+    "$date": "2025-06-30T00:51:12.583Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686209b7d2edbb5fcfa2e135"
+  },
+  "candidatoId": "NULO",
+  "tipoVoto": "NULO",
+  "timestamp": {
+    "$date": "2025-06-30T00:51:19.961Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "686209bcd2edbb5fcfa2e136"
+  },
+  "candidatoId": "BRANCO",
+  "tipoVoto": "BRANCO",
+  "timestamp": {
+    "$date": "2025-06-30T00:51:24.378Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68620b1af955437077416c7e"
+  },
+  "candidatoId": "91001",
+  "tipoVoto": "VALIDO",
+  "timestamp": {
+    "$date": "2025-06-30T00:57:14.856Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68620b20f955437077416c7f"
+  },
+  "candidatoId": "91002",
+  "tipoVoto": "VALIDO",
+  "timestamp": {
+    "$date": "2025-06-30T00:57:20.882Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68620b24f955437077416c80"
+  },
+  "candidatoId": "NULO",
+  "tipoVoto": "NULO",
+  "timestamp": {
+    "$date": "2025-06-30T00:57:24.329Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68620b26f955437077416c81"
+  },
+  "candidatoId": "BRANCO",
+  "tipoVoto": "BRANCO",
+  "timestamp": {
+    "$date": "2025-06-30T00:57:26.165Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68620c71374ef0738512e919"
+  },
+  "candidatoId": "91001",
+  "tipoVoto": "VALIDO",
+  "timestamp": {
+    "$date": "2025-06-30T01:02:57.002Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68620c77374ef0738512e91a"
+  },
+  "candidatoId": "91002",
+  "tipoVoto": "VALIDO",
+  "timestamp": {
+    "$date": "2025-06-30T01:03:03.320Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68620c7c374ef0738512e91b"
+  },
+  "candidatoId": "BRANCO",
+  "tipoVoto": "BRANCO",
+  "timestamp": {
+    "$date": "2025-06-30T01:03:08.896Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68620c80374ef0738512e91c"
+  },
+  "candidatoId": "NULO",
+  "tipoVoto": "NULO",
+  "timestamp": {
+    "$date": "2025-06-30T01:03:12.272Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6862bea522b5195c9ac50dfc"
+  },
+  "candidatoId": "91002",
+  "tipoVoto": "VALIDO",
+  "timestamp": {
+    "$date": "2025-06-30T13:43:17.697Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6862c4f90d1f2d0550ec49cc"
+  },
+  "candidatoId": "91001",
+  "tipoVoto": "VALIDO",
+  "timestamp": {
+    "$date": "2025-06-30T14:10:17.287Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6862c5080d1f2d0550ec49cd"
+  },
+  "candidatoId": "92002",
+  "tipoVoto": "VALIDO",
+  "timestamp": {
+    "$date": "2025-06-30T14:10:32.233Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6862c53d6d77680c3e0c6e64"
+  },
+  "candidatoId": "92002",
+  "tipoVoto": "VALIDO",
+  "timestamp": {
+    "$date": "2025-06-30T14:11:25.444Z"
+  }
+}]

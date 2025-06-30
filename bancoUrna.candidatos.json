@@ -1,0 +1,120 @@
+[{
+  "_id": "91001",
+  "nome": "Golfe",
+  "partido": {
+    "numero": "91",
+    "sigla": "PEsp"
+  }
+},
+{
+  "_id": "91002",
+  "nome": "Beisebol",
+  "partido": {
+    "numero": "91",
+    "sigla": "PEsp"
+  }
+},
+{
+  "_id": "91003",
+  "nome": "Ginástica Artística",
+  "partido": {
+    "numero": 91,
+    "sigla": "PEsp"
+  }
+},
+{
+  "_id": "92001",
+  "nome": "Rock",
+  "partido": {
+    "numero": "92",
+    "sigla": "PMus"
+  }
+},
+{
+  "_id": "92002",
+  "nome": "Sertanejo",
+  "partido": {
+    "numero": "92",
+    "sigla": "PMus"
+  }
+},
+{
+  "_id": "92003",
+  "nome": "Música Popular Brasileira",
+  "partido": {
+    "numero": "92",
+    "sigla": "PMus"
+  }
+},
+{
+  "_id": "93001",
+  "nome": "Astronauta",
+  "partido": {
+    "numero": "93",
+    "sigla": "PProf"
+  }
+},
+{
+  "_id": "93002",
+  "nome": "Pintor",
+  "partido": {
+    "numero": "93",
+    "sigla": "PProf"
+  }
+},
+{
+  "_id": "93003",
+  "nome": "Enfermeira",
+  "partido": {
+    "numero": "93",
+    "sigla": "PProf"
+  }
+},
+{
+  "_id": "94001",
+  "nome": "Páscoa",
+  "partido": {
+    "numero": "94",
+    "sigla": "PFest"
+  }
+},
+{
+  "_id": "94002",
+  "nome": "Oktoberfest",
+  "partido": {
+    "numero": 94,
+    "sigla": "PFest"
+  }
+},
+{
+  "_id": "94003",
+  "nome": "Reveillon",
+  "partido": {
+    "numero": "94",
+    "sigla": "PFest"
+  }
+},
+{
+  "_id": "95001",
+  "nome": "Curupira",
+  "partido": {
+    "numero": "95",
+    "sigla": "PFolc"
+  }
+},
+{
+  "_id": "95002",
+  "nome": "Cabra Cabriola",
+  "partido": {
+    "numero": "95",
+    "sigla": "PFolc"
+  }
+},
+{
+  "_id": "95003",
+  "nome": "Cuca",
+  "partido": {
+    "numero": "95",
+    "sigla": "PFolc"
+  }
+}]
