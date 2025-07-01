@@ -1,0 +1,48 @@
+package br.com.poo.urna.dao;
+
+import com.mongodb.client.MongoClient;
+import com.mongodb.client.MongoClients;
+import com.mongodb.client.MongoDatabase;
+
+/**
+ * Gerencia a conexão com o banco de dados MongoDB.
+ * Segue o padrão Singleton para garantir uma única instância de conexão.
+ */
+public class MongoDBConnection { // [cite: 26]
+
+    private static MongoClient mongoClient;
+    private static MongoDatabase database;
+    // URL de conexão local. Para produção, considere autenticação e variáveis de ambiente.
+    private static final String CONNECTION_STRING = "mongodb://localhost:27017"; // [cite: 23]
+    private static final String DATABASE_NAME = "bancoUrna"; // [cite: 22]
+
+    /**
+     * Retorna a instância do banco de dados MongoDB. Se a conexão ainda não foi estabelecida, a cria.
+     * @return A instância do MongoDatabase.
+     */
+    public static MongoDatabase getDatabase() { // [cite: 36]
+        if (database == null) {
+            try {
+                mongoClient = MongoClients.create(CONNECTION_STRING); // [cite: 23]
+                database = mongoClient.getDatabase(DATABASE_NAME); // [cite: 22]
+                System.out.println("Conectado ao MongoDB: " + DATABASE_NAME);
+            } catch (Exception e) {
+                System.err.println("Erro ao conectar ao MongoDB: " + e.getMessage());
+                e.printStackTrace();
+            }
+        }
+        return database;
+    }
+
+    /**
+     * Fecha a conexão com o MongoDB. Deve ser chamado ao finalizar a aplicação.
+     */
+    public static void closeConnection() { // [cite: 36]
+        if (mongoClient != null) {
+            mongoClient.close();
+            mongoClient = null;
+            database = null;
+            System.out.println("Conexão com o MongoDB fechada.");
+        }
+    }
+}
