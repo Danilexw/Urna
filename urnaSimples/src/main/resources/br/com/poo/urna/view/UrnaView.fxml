@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #D3D3D3;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.poo.urna.controller.UrnaController">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="14.0" layoutY="14.0" prefHeight="572.0" prefWidth="872.0" spacing="20.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="350.0" prefWidth="832.0" spacing="20.0">
+               <children>
+                  <VBox alignment="TOP_CENTER" prefHeight="330.0" prefWidth="400.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #808080; -fx-border-width: 2;">
+                     <children>
+                        <Label fx:id="labelSeuVoto" text="SEU VOTO PARA" textFill="#696969">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="10.0" top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="labelVereador" text="VEREADOR" textFill="#2f4f4f">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox fx:id="digitosVotoContainer" alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="5.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="40.0" prefWidth="40.0" style="-fx-border-color: black; -fx-border-width: 1;" text="" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" prefHeight="40.0" prefWidth="40.0" style="-fx-border-color: black; -fx-border-width: 1;" text="" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" prefHeight="40.0" prefWidth="40.0" style="-fx-border-color: black; -fx-border-width: 1;" text="" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" prefHeight="40.0" prefWidth="40.0" style="-fx-border-color: black; -fx-border-width: 1;" text="" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" prefHeight="40.0" prefWidth="40.0" style="-fx-border-color: black; -fx-border-width: 1;" text="" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                           <VBox fx:id="fimBox" alignment="CENTER" prefHeight="150.0" prefWidth="100.0" spacing="5.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Label fx:id="labelTelaFim" prefHeight="85.0" prefWidth="94.0" text="FIM">
+                                 <font>
+                                    <Font size="56.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="labelVotou" alignment="CENTER" contentDisplay="TOP" prefHeight="85.0" prefWidth="94.0" text="VOTOU">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </VBox>
+                        <VBox fx:id="infoCandidatoBox" alignment="CENTER" prefHeight="150.0" prefWidth="100.0" spacing="5.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <ImageView fx:id="imagemCandidato" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" style="-fx-border-color: gray; -fx-border-width: 1;">
+                                 </ImageView>
+                              <Label fx:id="labelNomeCandidato" text="NOME CANDIDATO" textFill="#36454f">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="labelPartidoSigla" text="PARTIDO - SIGLA" textFill="#36454f">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </VBox>
+                        <Label fx:id="labelMensagem" alignment="CENTER" prefHeight="21.0" prefWidth="384.0" text="MENSAGEM" textFill="#b22222">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="330.0" prefWidth="400.0" spacing="10.0" style="-fx-background-color: #2c2f30; -fx-border-color: #808080; -fx-border-width: 2;">
+                     <children>
+                        <GridPane hgap="2.0" prefHeight="201.0" prefWidth="336.0" translateX="35.0" vgap="40.0">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#handleDigito" prefHeight="105.0" prefWidth="100.0" styleClass="botao-numerico" text="1">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#handleDigito" prefHeight="105.0" prefWidth="100.0" styleClass="botao-numerico" text="2" GridPane.columnIndex="1">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#handleDigito" prefHeight="50.0" prefWidth="100.0" styleClass="botao-numerico" text="3" GridPane.columnIndex="2">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#handleDigito" prefHeight="50.0" prefWidth="100.0" styleClass="botao-numerico" text="4" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#handleDigito" prefHeight="50.0" prefWidth="100.0" styleClass="botao-numerico" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#handleDigito" prefHeight="50.0" prefWidth="100.0" styleClass="botao-numerico" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#handleDigito" prefHeight="50.0" prefWidth="100.0" styleClass="botao-numerico" text="7" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#handleDigito" prefHeight="50.0" prefWidth="100.0" styleClass="botao-numerico" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#handleDigito" prefHeight="50.0" prefWidth="100.0" styleClass="botao-numerico" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#handleDigito" prefHeight="50.0" prefWidth="100.0" styleClass="botao-numerico" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="5.0" right="60.0" top="5.0" />
+                           </VBox.margin>
+                        </GridPane>
+                        <HBox alignment="CENTER" prefHeight="68.0" prefWidth="396.0" spacing="10.0">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#handleBranco" prefHeight="50.0" prefWidth="100.0" styleClass="botao-branco" text="BRANCO" textFill="#36454f">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#handleCorrige" prefHeight="50.0" prefWidth="100.0" styleClass="botao-corrige" text="CORRIGE" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="btnConfirma" mnemonicParsing="false" onAction="#handleConfirma" prefHeight="50.0" prefWidth="100.0" styleClass="botao-confirmar" text="CONFIRMA" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Button>
+                      
+                                 </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="162.0" prefWidth="872.0" spacing="10.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#handlePartido91" prefHeight="100.0" prefWidth="100.0" styleClass="botao-partido" text="Partido 91">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#handlePartido92" prefHeight="100.0" prefWidth="100.0" styleClass="botao-partido" text="Partido 92" textFill="#36454f">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#handlePartido93" prefHeight="100.0" prefWidth="100.0" styleClass="botao-partido" text="Partido 93">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#handlePartido94" prefHeight="100.0" prefWidth="100.0" styleClass="botao-partido" text="Partido 94" textFill="#36454f">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#handlePartido95" prefHeight="100.0" prefWidth="100.0" styleClass="botao-partido" text="Partido 95" textFill="#36454f">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <ImageView fx:id="partido91" fitHeight="126.0" fitWidth="536.0" layoutX="135.0" layoutY="409.0" visible="false">
+         <image>
+            <Image url="@../../../../../images/91.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="partido92" fitHeight="126.0" fitWidth="536.0" layoutX="135.0" layoutY="409.0" visible="false">
+         <image>
+            <Image url="@../../../../../images/92.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="partido93" fitHeight="126.0" fitWidth="536.0" layoutX="135.0" layoutY="409.0" visible="false">
+         <image>
+            <Image url="@../../../../../images/92.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="partido94" fitHeight="126.0" fitWidth="536.0" layoutX="135.0" layoutY="409.0" visible="false">
+         <image>
+            <Image url="@../../../../../images/92.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="partido95" fitHeight="126.0" fitWidth="536.0" layoutX="135.0" layoutY="409.0" visible="false">
+         <image>
+            <Image url="@../../../../../images/92.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="botaoFecharImagem" layoutX="642.0" layoutY="412.0" mnemonicParsing="false" onAction="#handleFecharImagem" styleClass="botao-fechar" text="×" visible="false" />
+   </children>
+</AnchorPane>
